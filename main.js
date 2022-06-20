@@ -7,7 +7,7 @@ class Buch {
         this.Anzahl = "Anzahl"
     }
 
-    verfuegbar() {
+verfuegbar() {
         if (this.Anzahl < 1) {
             console.log("Es ist kein Buch mehr vorhanden")
         } else {
@@ -18,7 +18,7 @@ class Buch {
         this.Anzahl = this.Anzahl - 1
     }
 }
-function neuesFahrzeug() {
+function neuesBuch() {
     buch = new buch ("", "", "")
 }
 
