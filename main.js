@@ -7,7 +7,7 @@ class Buch {
         this.Anzahl = "Anzahl"
     }
 
-verfuegbar() {
+    verfuegbar() {
         if (this.Anzahl < 1) {
             console.log("Es ist kein Buch mehr vorhanden")
         } else {
@@ -25,12 +25,12 @@ function neuesBuch() {
 let lager = []
 
 function init() {
-    let buch = new Buch("Schwarz", "Duden", "J.K. Rowling", "19.99€") //hallo
+    let buch = new Buch("Schwarz", "Duden", "J.K. Rowling", "19.99€")
     lager.push(buch)
-    buch = new Buch("Weiß", "Cornelsen", "", "")
+    buch = new Buch("Weiß", "Cornelsen", "Hr. Fricke", "299,99€")
     lager.push(buch)
-    buch = new Buch("Orange", "", "", "")
+    buch = new Buch("Orange", "Hamburger Lesehefte", "Georg büchner", "14,99€")
     lager.push(buch)
-    buch = new Buch("Gelb", "", "", "")
+    buch = new Buch("Gelb", "Duden", "Jonas Körner", "9,99€")
     lager.push(buch)
 }
