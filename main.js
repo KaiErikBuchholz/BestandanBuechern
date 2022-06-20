@@ -20,18 +20,22 @@ class Buch {
     }
 }
 function neuesBuch() {
-    buch = new buch ("", "", "")
+    buch = new Buch ("", "", "","","")
 }
 
 let lager = []
 
 function init() {
-    let buch = new Buch("Schwarz", "Duden", "J.K. Rowling", "19.99€","Harry Otter")
-    lager.push(buch)
-    buch = new Buch("Weiß", "Cornelsen", "Hr. Fricke", "299,99€","Informatik für Anfänger")
-    lager.push(buch)
-    buch = new Buch("Orange", "Hamburger Lesehefte", "Georg büchner", "14,99€", "Woyzeck")
-    lager.push(buch)
-    buch = new Buch("Gelb", "Duden", "Jonas Körner", "9,99€", "Tafelwerk")
-    lager.push(buch)
+    let buch1 = new Buch("Schwarz", "Duden", "J.K. Rowling", "19.99€","Harry Otter")
+    lager.push(buch1)
+    let buch2 = new Buch("Weiß", "Cornelsen", "Hr. Fricke", "299,99€","Informatik für Anfänger")
+    lager.push(buch2)
+    let buch3 = new Buch("Orange", "Hamburger Lesehefte", "Georg büchner", "14,99€", "Woyzeck")
+    lager.push(buch3)
+    let buch4 = new Buch("Gelb", "Duden", "Jonas Körner", "9,99€", "Tafelwerk")
+    lager.push(buch4)
+}
+
+function lagerListe(){
+    console.log(lager)
 }
