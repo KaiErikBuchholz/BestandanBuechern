@@ -25,7 +25,7 @@ function neuesBuch() {
 let lager = []
 
 function init() {
-    let buch = new Buch("Schwarz", "Duden", "J.K. Rowling", "19.99€")
+    let buch = new Buch("Schwarz", "Duden", "J.K. Rowling", "19.99€") //hallo
     lager.push(buch)
     buch = new Buch("Weiß", "Cornelsen", "", "")
     lager.push(buch)
