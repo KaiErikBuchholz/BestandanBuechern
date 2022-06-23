@@ -37,5 +37,8 @@ function init() {
 }
 
 function lagerListeTitel(){
-    console.log(lager)
+    console.log(lager[2])
 }
+
+init()
+lagerListeTitel()
