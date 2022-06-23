@@ -1,5 +1,5 @@
 class Buch {
-    constructor(Farbe, Verlag, Autor, Preis, Titel, Anzahl) {
+    constructor(Farbe, Verlag, Autor, Preis, Titel, Anzahl) { //test test test
         this.Farbe = "Farbe"
         this.Verlag = "Verlag"
         this.Autor = "Autor"
@@ -39,6 +39,3 @@ function init() {
 function lagerListe(){
     console.log(lager)
 }
-
-init()
-lagerListe()
