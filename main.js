@@ -34,10 +34,13 @@ function init() {
     lager.push(buch3)
     let buch4 = new Buch("Gelb", "Duden", "Jonas Körner", "9,99€", "Tafelwerk")
     lager.push(buch4)
+    lager.sort(this.Titel)
 }
 
 function lagerListeTitel(){
-    console.log(lager[2])
+    for (let i = Array.length; i===0 ; i--) {
+    console.log(lager)
+    }
 }
 
 init()
