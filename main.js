@@ -1,11 +1,11 @@
 class Buch {
     constructor(Farbe, Verlag, Autor, Preis, Titel, Anzahl) {
-        this.Farbe = "Farbe"
-        this.Verlag = "Verlag"
-        this.Autor = "Autor"
-        this.Preis = "Preis"
-        this.Titel = "Titel"
-        this.Anzahl = "Anzahl"
+        this.Farbe = Farbe
+        this.Verlag = Verlag
+        this.Autor = Autor
+        this.Preis = Preis
+        this.Titel = Titel
+        this.Anzahl = Anzahl
     }
 
     verfuegbar() {
@@ -34,8 +34,4 @@ function init() {
     lager.push(buch3)
     let buch4 = new Buch("Gelb", "Duden", "Jonas Körner", "9,99€", "Tafelwerk")
     lager.push(buch4)
-}
-
-function lagerListe(){
-    console.log(lager)
 }
