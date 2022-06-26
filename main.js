@@ -1,6 +1,5 @@
 class Buch {
     constructor(Farbe, Verlag, Autor, Preis, Titel, Anzahl) { //test test test
-        this.Farbe = Farbe
         this.Verlag = Verlag
         this.Autor = Autor
         this.Preis = Preis
@@ -34,14 +33,12 @@ function init() {
     lager.push(buch3)
     let buch4 = new Buch("Gelb", "Duden", "Jonas Körner", "9,99€", "Tafelwerk")
     lager.push(buch4)
-    lager.sort(this.Titel)
 }
 
 function lagerListeTitel(){
-    for (let i = Array.length; i===0 ; i--) {
-    console.log(lager)
+    for (let i = lager.length; i===0 ; i-1) {
+        console.log(lager[i,+5])
     }
+    console.log(lager[i,5])
+    console.log(i)
 }
-
-init()
-lagerListeTitel()
